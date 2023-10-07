@@ -1,13 +1,23 @@
 {
-  "name": "nodejs-app",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
+  "description": "",
   "main": "index.js",
-  "author": "alphasec",
-  "license": "MIT",
-   "dependencies": {
-  },
   "scripts": {
-    "start": "node index.js"
+    "test": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.1.0",
+    "mongoose": "^5.13.20",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
